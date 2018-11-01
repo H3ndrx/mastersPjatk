@@ -1,0 +1,12 @@
+Instrukacja instalacji Postgress:
+
+1. Zainstaluj brew
+2. brew install libxml2
+3. brew install postgres
+4. brew services start postgresql
+5. Tworzymy uzytkownika, ktory bedzie wlascicielem bazy
+5a. createuser -D -P nazwauzytkownika
+6. Tworzymy baze i przypisujemy uzytkownika
+6a. createdb -O nazwauzytkownika bazadanych
+7. odpalamy baze wchodzac do konsoli
+7a. psql -d perfect_testing -U perfect

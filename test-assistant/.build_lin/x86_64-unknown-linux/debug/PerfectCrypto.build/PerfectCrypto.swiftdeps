@@ -1,0 +1,56 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PerfectCrypto"
+- "CryptoError"
+provides-nominal:
+- "13PerfectCryptoAAO"
+- "13PerfectCrypto0B5ErrorV"
+provides-member:
+- ["13PerfectCryptoAAO", ""]
+- ["13PerfectCrypto0B5ErrorV", ""]
+depends-top-level:
+- "Bool"
+- "CryptoError"
+- "Error"
+- "Int"
+- "OpenSSLInternal"
+- "PerfectCrypto"
+- "String"
+depends-member:
+- ["13PerfectCrypto0B5ErrorV", "Int"]
+- ["13PerfectCrypto0B5ErrorV", "String"]
+- ["13PerfectCrypto0B5ErrorV", "_code"]
+- ["13PerfectCrypto0B5ErrorV", "_domain"]
+- ["13PerfectCrypto0B5ErrorV", "_userInfo"]
+- ["13PerfectCrypto0B5ErrorV", "code"]
+- ["13PerfectCrypto0B5ErrorV", "deinit"]
+- ["13PerfectCrypto0B5ErrorV", "init"]
+- ["13PerfectCrypto0B5ErrorV", "msg"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", ""]
+- ["13PerfectCrypto15OpenSSLInternalV", "isInitialized"]
+- ["13PerfectCryptoAAO", "Bool"]
+- ["13PerfectCryptoAAO", "OpenSSLInternal"]
+- ["13PerfectCryptoAAO", "isInitialized"]
+depends-nominal:
+- "13PerfectCrypto0B5ErrorV"
+- "s5ErrorP"
+- "13PerfectCrypto15OpenSSLInternalV"
+- "13PerfectCryptoAAO"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/PerfectLib.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/PerfectThread.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/perfectbuild/.build/checkouts/Perfect-LinuxBridge.git--5290921460020227287/LinuxBridge/include/LinuxBridge.h"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git-8417143276805186170/COpenSSL/include/openssl.h"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/LinuxBridge.build/module.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git-8417143276805186170/COpenSSL/include/module.modulemap"
+interface-hash: "8b18cc72ffad6dab8f6a79217dd23fd4"

@@ -1,0 +1,4 @@
+FROM perfectassistant/magisterka_pawscout:latest
+COPY .build_lin/release/Magisterka Pawscout /perfect-deployed/magisterka_pawscout/
+RUN rm -rf /var/lib/apt/lists/*
+CMD cd /perfect-deployed/magisterka_pawscout/ && ./Magisterka Pawscout

@@ -1,0 +1,216 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "server"
+- "routes"
+- "returnJSONMessage"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Dictionary"
+- "FloatLiteralType"
+- "HTTPRequest"
+- "HTTPResponse"
+- "HTTPServer"
+- "Int"
+- "IntegerLiteralType"
+- "PerfectError"
+- "Routes"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- "print"
+- "returnJSONMessage"
+- "routes"
+- "server"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["s13BinaryIntegerP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "badRequest"]
+- ["s23CustomStringConvertibleP", "get"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "internalServerError"]
+- ["s23CustomStringConvertibleP", "post"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s9DecodableP", "badRequest"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "internalServerError"]
+- ["s9DecodableP", "subscript"]
+- ["s10DictionaryV", "subscript"]
+- ["s9EncodableP", "badRequest"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "internalServerError"]
+- ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "get"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "post"]
+- ["s5ErrorP", "networkError"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["11PerfectHTTP10HTTPMethodO", "get"]
+- ["11PerfectHTTP10HTTPMethodO", "post"]
+- ["11PerfectHTTP11HTTPRequestP", "param"]
+- ["11PerfectHTTP11HTTPRequestP", "urlVariables"]
+- ["11PerfectHTTP12HTTPResponseP", "completed"]
+- ["11PerfectHTTP12HTTPResponseP", "setBody"]
+- !private ["11PerfectHTTP12HTTPResponseP", "setHeader"]
+- ["11PerfectHTTP18HTTPResponseStatusO", "badRequest"]
+- !private ["11PerfectHTTP18HTTPResponseStatusO", "internalServerError"]
+- ["17PerfectHTTPServer0B0C", "addRoutes"]
+- ["17PerfectHTTPServer0B0C", "documentRoot"]
+- ["17PerfectHTTPServer0B0C", "init"]
+- ["17PerfectHTTPServer0B0C", "serverPort"]
+- ["17PerfectHTTPServer0B0C", "start"]
+- ["s8HashableP", "get"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "post"]
+- ["Si", "init"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- ["10PerfectLib15JSONConvertibleP", "subscript"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentType"]
+- ["s7NumericP", "init"]
+- ["10PerfectLib0A5ErrorO", "networkError"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["11PerfectHTTP6RoutesV", "add"]
+- ["11PerfectHTTP6RoutesV", "init"]
+- ["s8SequenceP", "init"]
+- ["s8SequenceP", "subscript"]
+- ["17PerfectHTTPServer14ServerInstanceP", "addRoutes"]
+- ["17PerfectHTTPServer14ServerInstanceP", "documentRoot"]
+- ["17PerfectHTTPServer14ServerInstanceP", "init"]
+- ["17PerfectHTTPServer14ServerInstanceP", "serverPort"]
+- ["17PerfectHTTPServer14ServerInstanceP", "start"]
+- ["s13SignedIntegerP", "init"]
+- ["s13SignedNumericP", "init"]
+- ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s18_BitwiseOperationsP", "init"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- ["10Foundation13_CFBridgeableP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s10_IndexableP", "subscript"]
+- ["s14_IndexableBaseP", "init"]
+- ["s14_IndexableBaseP", "subscript"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- ["10Foundation13_NSBridgeableP", "subscript"]
+- ["10Foundation17_ObjectBridgeableP", "init"]
+- ["10Foundation17_ObjectBridgeableP", "subscript"]
+- ["10Foundation21_ObjectTypeBridgeableP", "init"]
+- ["10Foundation21_ObjectTypeBridgeableP", "subscript"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s11_StrideableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "11PerfectHTTP10HTTPMethodO"
+- "11PerfectHTTP11HTTPRequestP"
+- "11PerfectHTTP12HTTPResponseP"
+- "11PerfectHTTP18HTTPResponseStatusO"
+- "17PerfectHTTPServer0B0C"
+- "s8HashableP"
+- "Si"
+- "10PerfectLib15JSONConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "11PerfectHTTP18HTTPResponseHeaderO4NameO"
+- "s7NumericP"
+- "10PerfectLib0A5ErrorO"
+- "s26RangeReplaceableCollectionP"
+- "11PerfectHTTP6RoutesV"
+- "s8SequenceP"
+- "17PerfectHTTPServer14ServerInstanceP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- "s18_BitwiseOperationsP"
+- "10Foundation13_CFBridgeableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation13_NSBridgeableP"
+- "10Foundation17_ObjectBridgeableP"
+- "10Foundation21_ObjectTypeBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/PerfectHTTP.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/PerfectLib.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/PerfectThread.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/PerfectCrypto.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/PerfectHTTPServer.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/PerfectNet.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/perfectbuild/.build/checkouts/Perfect-CZlib-src.git--6548705623415448931/PerfectCZlib/include/../zlib.h"
+- "/perfectbuild/.build/checkouts/Perfect-CZlib-src.git--6548705623415448931/PerfectCZlib/include/czlib.h"
+- "/perfectbuild/.build/checkouts/Perfect-LinuxBridge.git--5290921460020227287/LinuxBridge/include/LinuxBridge.h"
+- "/perfectbuild/.build/checkouts/Perfect-CZlib-src.git--6548705623415448931/PerfectCZlib/include/../zconf.h"
+- "/perfectbuild/.build/checkouts/Perfect-CZlib-src.git--6548705623415448931/PerfectCZlib/include/../zutil.h"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git-8417143276805186170/COpenSSL/include/openssl.h"
+- "/perfectbuild/.build/checkouts/Perfect-HTTPServer.git-3064075069081541050/Sources/PerfectCHTTPParser/include/http_parser.h"
+- "/perfectbuild/.build/checkouts/Perfect-CZlib-src.git--6548705623415448931/PerfectCZlib/include/../inftrees.h"
+- "/swift-4.0.3-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/LinuxBridge.build/module.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git-8417143276805186170/COpenSSL/include/module.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-CZlib-src.git--6548705623415448931/PerfectCZlib/include/module.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-HTTPServer.git-3064075069081541050/Sources/PerfectCHTTPParser/include/module.modulemap"
+interface-hash: "698d2c93b47e1c11a53536a5d749dc7e"

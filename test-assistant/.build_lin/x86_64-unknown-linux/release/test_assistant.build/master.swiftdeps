@@ -1,0 +1,5 @@
+version: "Swift version 4.0.3 (swift-4.0.3-RELEASE)"
+options: "a255b38081c06f81efafcecd2c7768b3"
+build_time: [1524419792, 65318821]
+inputs:
+  "/perfectbuild/Sources/test-assistant/main.swift": [9223372036, 854775807]

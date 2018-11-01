@@ -1,0 +1,53 @@
+przyklad wyciagania z bazy danych:
+
+//		do {
+			// Get a reference to the tables we will be inserting data into.
+//			let tagsTable = dbConfiguration.database.table(Tag.self)
+//
+//			// Perform a query.
+//			// Let's find all people with the last name of Lars which have a phone number on planet 12.
+//			let query = try tagsTable
+//				.order(by: \.minor, \.major)
+//				.join(\.locations, on: \.id, equals: \.tagId)
+//				.order(descending: \.timestamp)
+//				.where(\Tag.major == 0 && \Tag.minor == 10)
+//				.select()
+//
+//			//	 Loop through the results and print the names.
+//			var tags: [Tag] = []
+//			for tag: Tag in query {
+//				// We joined PhoneNumbers, so we should have values here.
+//				tags.append(tag)
+//				//			guard let numbers = user.phoneNumbers else {
+//				//				continue
+//				//			}
+//				//			for number in numbers {
+//				//				print(number.number)
+//				//			}
+//			}
+//		} catch {
+//			response.setBody(string: "Error handling request: \(error)")
+//				.completed(status: .internalServerError)
+//		}
+
+
+przyklad populowania danych
+
+do {
+			//Insert some sample data.
+			// Insert some sample data.
+			//		let owen = Person(id: 1, firstName: "Owen", lastName: "Lars", phoneNumbers: nil)
+			//		let beru = Person(id: 2, firstName: "Beru", lastName: "Lars", phoneNumbers: nil)
+			//
+			//		// Insert the people
+			//		try personTable.insert([owen, beru])
+			//
+			//		// Give them some phone numbers
+			//		try numbersTable.insert([
+			//			PhoneNumber(personId: owen.id, planetCode: 12, number: "555-555-1212"),
+			//			PhoneNumber(personId: owen.id, planetCode: 15, number: "555-555-2222"),
+			//			PhoneNumber(personId: beru.id, planetCode: 12, number: "555-555-1212")])
+		} catch {
+			response.setBody(string: "Error handling request: \(error)")
+				.completed(status: .internalServerError)
+		}

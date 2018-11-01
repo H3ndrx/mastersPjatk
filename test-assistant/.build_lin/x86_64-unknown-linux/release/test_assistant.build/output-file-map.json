@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/test_assistant.build/test_assistant.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/test_assistant.build/test_assistant.o",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/test_assistant.build/master.swiftdeps"
+  },
+  "/perfectbuild/Sources/test-assistant/main.swift": {
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/release/test_assistant.build/main.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/release/test_assistant.build/main~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/release/test_assistant.build/main.swiftdeps"
+  }
+}
