@@ -57,6 +57,7 @@ final class TagService: Service {
 			let location: Location = try decoder.decode(Location.self, from: data)
 			self.db.add(location: location, for: tagId)
 			response.completed(status: .created)
+			print("Added location for tag: \(tagId)")
 		} catch {
 			response.setBody(string: "Error handling request: \(error)")
 				.completed(status: .internalServerError)
