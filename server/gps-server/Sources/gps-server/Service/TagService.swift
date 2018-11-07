@@ -81,11 +81,11 @@ final class TagService: Service {
 			response.completed(status: .badRequest)
 			return
 		}
-		guard let locations: [Location] = self.db.locations(for: tagId) else {
+		guard let location: Location = self.db.locations(for: tagId)?.first else {
 			response.completed(status: .notFound)
 			return
 		}
 		//here all logic behind calculating the best location for pet
-		self.returnJSON(with: locations.json, response: response)
+		self.returnJSON(with: location.json, response: response)
 	}
 }
