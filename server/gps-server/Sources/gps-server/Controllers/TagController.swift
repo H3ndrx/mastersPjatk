@@ -25,7 +25,7 @@ final class TagController: BasicController {
 	}
 	
 	private func addTag(request: HTTPRequest, response: HTTPResponse) {
-		tagService.addTag(with: request, response: response)
+		tagService.addTagIfNeeded(with: request, response: response)
 	}
 	
 	private func updateLocationForTag(request: HTTPRequest, response: HTTPResponse) {

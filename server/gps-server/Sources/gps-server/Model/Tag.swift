@@ -12,12 +12,19 @@ struct Tag: Codable {
 	let id: String
 	let major: Int
 	let minor: Int
-	let locations: [Location]?
+	var locations: [Location]?
+	
+	init(major: Int, minor: Int) {
+		self.id = "\(major).\(minor)"
+		self.major = major
+		self.minor = minor
+		self.locations = nil
+	}
 }
 
 extension Tag: JSONable {
 	var json: JSON {
-		var returnValue: JSON = ["tagId": "\(self.major).\(self.minor)"]
+		var returnValue: JSON = ["tagId": self.id]
 		if let locations: [Location] = self.locations {
 			returnValue["location"] = locations.json
 		}
